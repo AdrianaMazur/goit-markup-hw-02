@@ -7,7 +7,7 @@
     --shaded-color: rgb(244, 244, 253);
 }
 .body {
-  font-family: 'Roboto',sans-serif ;
+  font-family: 'Roboto', sans-serif ;
   color: var(--main-color);
   background-color: var(--background-color);
 }
@@ -126,11 +126,13 @@
     color: var(--main-color);
 }
 /* LIST OF EMPLOYEES */
-
+.section{
+    background-color: var(--shaded-color);
+}
 .section-title{
     font-family: "Roboto";
     color: var(--text-color);
-    background-color: var(--shaded-color);
+    background-color: var(--background-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -193,11 +195,6 @@
 
 /* PORTFOLIO */
 
-.body{
-    font-family: 'Raleway', 'sans-serif';
-    color: var(--main-color);
-    background-color: var(--background-color);
-}
 
 .main-button.button-filter{
     font-family: "Roboto", 'sans-serif';
