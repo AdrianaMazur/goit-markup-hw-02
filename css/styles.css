@@ -1,12 +1,14 @@
-
+:root{
+    --main-color: rgba(67, 68, 85, 1);
+}
 .body {
-  font-family: "Roboto", 'sans-serif';
+  font-family: 'Roboto', 'sans-serif';
   color: #434455;
   background-color: #ffffff;
 }
 
 .logo {
-  font-family: "Raleway", 'sans-serif';
+  font-family: 'Raleway', 'sans-serif';
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -27,17 +29,21 @@
 
 .menu-link.link {
   font-family: "Roboto";
-  color:#434455;
+  color:#2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.menu-link .link:hover {
+.menu-link:hover.menu-link:focus{
   color:#404BBF;
 }
+.link:hover.link:focus{
+    color: #404BBF;
+}
 .contact-email .contact-tel {
-  color: var(--primary-color));
-  font-family: "Roboto";
+  color: #434455;
+  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -45,9 +51,9 @@
   text-decoration: none;
 }
 .contact-email:hover
-  .contact-tel:hover
-  .contact-email:focus
-  .contact-tel:focus {
+.contact-tel:hover
+.contact-email:focus
+.contact-tel:focus {
   color: #404BBF;
   
 }
@@ -59,17 +65,16 @@
 }
 
 /* HERO */
-
+.hero {
+    background-color: rgba(46, 47, 66, 1);
+}
 .hero-title {
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02em
-}
-.hero{
-    background-color: rgba(46, 47, 66, 1);
+  letter-spacing: 0.02em;
 }
 
 .button {
@@ -80,11 +85,11 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04;
+  text-align: center;
   cursor: pointer;
 }
 
-.button:hover .button:focus {
-  color:#ffffff;
+.button:hover.button:focus {
   background-color: #404BBF;
   text-align: center;
 }
@@ -93,23 +98,47 @@
 
 .features.features-title {
   font-family: "Roboto";
-  color: var(--primary-color);
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.feauters-descr{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* LIST OF EMPLOYEES */
 
 .section-title{
   font-family: "Roboto";
-  color: var(--primary-color);
+  color: #2e2f42;
   background-color: #F4F4FD ;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.5;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+.employees-list{
+    background-color: #FFFFFF
+}
+.employees-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.employees-description{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /* FOOTER */
@@ -123,6 +152,7 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   color:#4D5AE5;
+  text-transform: uppercase;
 }
 .footer-logo{
     text-decoration: none;
@@ -153,7 +183,27 @@
     background-color: #ffffff;
 }
 
+.main-button.button-filter{
+    font-family: "Roboto", 'sans-serif';
+    color:#4D5AE5;
+    background-color: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+}
+.main-button:hover,.main-button:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
 
+}
+.button-filter:hover,
+.button-filter:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+
+}
 
 .work-list.list{
 
