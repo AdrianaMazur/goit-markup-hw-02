@@ -194,15 +194,13 @@
   cursor: pointer;
 }
 
-.button-filter.primary:hover.button-filter.primary:focus {
+.button-filter.link:hover 
+.button-filter.link:focus {
   color: var(--background-color);
-  background-color: var(--brand-color);
+  background-color: var(--brand-color)
 }
 
-.button-filter.secondary:hover.button-filter.secondary:focus {
-  color: var(--background-color);
-  background-color: var(--brand-color);
-}
+
 .list {
   list-style: none;
 }
