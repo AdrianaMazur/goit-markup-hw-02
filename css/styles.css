@@ -1,84 +1,91 @@
-/:root {
-  --primary-color: rgba(46, 47, 66, 1);
-  --text-color: rgba(67, 68, 85, 1);
-  --accent-color: rgba(77, 90, 229, 1);
-  --primary-bgr-color: #ffffff;
-}
 
 .body {
-  font-family: "Roboto", "sans-serif";
-  color: var(--text-color);
+  font-family: "Roboto", 'sans-serif';
+  color: #434455;
   background-color: #ffffff;
 }
 
 .logo {
-  font-family: "Raleway", "sans-serif";
+  font-family: "Raleway", 'sans-serif';
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color:#4D5AE5;
+  text-transform: uppercase;
+}
+.logo{
+    text-decoration: none;
 }
 .logo-slice {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color:#2E2F42;
 }
 
 .menu-link.link {
   font-family: "Roboto";
-  color: var(--text-color);
+  color:#434455;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 }
 .menu-link .link:hover {
-  color: var(--accent-color);
+  color:#404BBF;
 }
 .contact-email .contact-tel {
-  color: rgba(67, 68, 85, 1);
+  color: var(--primary-color));
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .contact-email:hover
   .contact-tel:hover
   .contact-email:focus
   .contact-tel:focus {
-  color: var(--accent-color);
+  color: #404BBF;
+  
 }
-
+.adress{
+    font-style: normal;
+}
 .list {
   list-style: none;
 }
 
 /* HERO */
-.hero {
-  background-color: var(--title-text-color);
-}
+
 .hero-title {
-  color: var(--primary-bgr-color);
+  color: #ffffff;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em
+}
+.hero{
+    background-color: rgba(46, 47, 66, 1);
 }
 
 .button {
-  color: var(--primary-bgr-color);
-  background-color: var(--accent-color);
-  font-family: "Roboto";
+  color:#ffffff;
+  background-color:#4D5AE5;
+  font-family: 'Roboto','sans-serif';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04;
+  cursor: pointer;
 }
 
 .button:hover .button:focus {
-  color: var(--primary-bgr-color);
-  background-color: rgba(64, 75, 191, 1);
+  color:#ffffff;
+  background-color: #404BBF;
   text-align: center;
 }
 
@@ -86,34 +93,40 @@
 
 .features.features-title {
   font-family: "Roboto";
-  color: var(--title-text-color);
+  color: var(--primary-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.section-title .emploees-title {
+.section-title{
   font-family: "Roboto";
-  color: var(--title-text-color);
+  color: var(--primary-color);
+  background-color: #F4F4FD ;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1;
+  line-height: 1.5;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 /* FOOTER */
 .footer {
-  background-color: var(--title-text-color);
+  background-color:#2E2F42;
 }
-.logo-footer {
-  font-family: "Raleway", "sans-serif";
+.footer-logo {
+  font-family: "Raleway", 'sans-serif';
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(-accent-color);
+  color:#4D5AE5;
 }
-
+.footer-logo{
+    text-decoration: none;
+}
 .logo-half {
   font-weight: 800;
   font-size: 18px;
@@ -121,9 +134,7 @@
   letter-spacing: 0.03em;
   color: #f4f4fd;
 }
-.footer {
-  background-color: var(--primary-color);
-}
+
 
 .footer-text {
   color: #f4f4fd;
@@ -131,4 +142,38 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+}
+
+
+
+/* PORTFOLIO */
+.body{
+    font-family: "Roboto", 'sans-serif';
+    color: #434455;
+    background-color: #ffffff;
+}
+
+
+
+.work-list.list{
+
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    text-decoration: none;
+}
+.list-title{
+    color: #2E2F42;
+}
+
+.list-filter{
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+.link{
+    text-decoration: none;
 }
