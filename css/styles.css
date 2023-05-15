@@ -7,13 +7,13 @@
     --shaded-color: rgb(244, 244, 253);
 }
 .body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto',sans-serif ;
   color: var(--main-color);
   background-color: var(--background-color);
 }
 
 .logo {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -41,6 +41,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .menu-link:hover
 .menu-link:focus{
   color:var(--brand-color);
@@ -50,7 +51,7 @@
 }
 .contact-email,.contact-tel {
   color: var(--main-color);
-  font-family: 'Roboto';
+  font-family: 'Roboto'. sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -75,7 +76,7 @@
 
 /* HERO */
 
-.hero-title {
+.hero-title{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -160,12 +161,12 @@
   background-color:var(--text-color);
 }
 .footer-logo {
-  font-family: 'Raleway' 'sans-serif';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: var(--accent-color);
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
   text-transform: uppercase;
 }
 .footer-logo{
@@ -198,8 +199,7 @@
     background-color: var(--background-color);
 }
 
-.main-button
-.button-fiilter{
+.main-button.button-filter{
     font-family: "Roboto", 'sans-serif';
     color: var(--accent-color);
     background-color: var(--shaded-color);
