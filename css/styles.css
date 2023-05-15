@@ -1,0 +1,134 @@
+/:root {
+  --primary-color: rgba(46, 47, 66, 1);
+  --text-color: rgba(67, 68, 85, 1);
+  --accent-color: rgba(77, 90, 229, 1);
+  --primary-bgr-color: #ffffff;
+}
+
+.body {
+  font-family: "Roboto", "sans-serif";
+  color: var(--text-color);
+  background-color: #ffffff;
+}
+
+.logo {
+  font-family: "Raleway", "sans-serif";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.logo-slice {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.menu-link.link {
+  font-family: "Roboto";
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.menu-link .link:hover {
+  color: var(--accent-color);
+}
+.contact-email .contact-tel {
+  color: rgba(67, 68, 85, 1);
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.contact-email:hover
+  .contact-tel:hover
+  .contact-email:focus
+  .contact-tel:focus {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* HERO */
+.hero {
+  background-color: var(--title-text-color);
+}
+.hero-title {
+  color: var(--primary-bgr-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+.button {
+  color: var(--primary-bgr-color);
+  background-color: var(--accent-color);
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.button:hover .button:focus {
+  color: var(--primary-bgr-color);
+  background-color: rgba(64, 75, 191, 1);
+  text-align: center;
+}
+
+/* LIST OF FEATURES */
+
+.features.features-title {
+  font-family: "Roboto";
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.section-title .emploees-title {
+  font-family: "Roboto";
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  text-align: center;
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--title-text-color);
+}
+.logo-footer {
+  font-family: "Raleway", "sans-serif";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(-accent-color);
+}
+
+.logo-half {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+}
+.footer {
+  background-color: var(--primary-color);
+}
+
+.footer-text {
+  color: #f4f4fd;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
