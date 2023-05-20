@@ -201,8 +201,8 @@ body {
 
 /* PORTFOLIO */
 
-.button-filter {
-  font-family: "Roboto" sans-serif;
+.button-filter .link {
+  font-family: "Roboto", 'sans-serif';
   color: var(--accent-color);
   background-color: var(--shaded-color);
   font-weight: 500;
@@ -212,8 +212,8 @@ body {
   cursor: pointer;
 }
 
-.button-filter.link:hover 
-.button-filter.link:focus {
+.button-filter .link:hover 
+.button-filter .link:focus {
   color: var(--background-color);
   background-color: var(--brand-color)
 }
@@ -222,7 +222,7 @@ body {
 .list {
   list-style: none;
 }
-.work-list.list {
+.work-list .link {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
