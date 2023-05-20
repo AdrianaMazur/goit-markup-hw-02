@@ -86,7 +86,7 @@ body {
 }
 
 .button {
-  font-family: 'Roboto', 'sans-serif';
+  font-family: 'Roboto', sans-serif; 
   color: var(--background-color);
   background-color: var(--accent-color);
   font-weight: 500;
@@ -97,8 +97,9 @@ body {
   cursor: pointer;
 }
 
-.button:hover.button:focus {
-  background-color: var(--brand-color);
+.button:hover,
+.button:focus {
+background-color: var(--brand-color);
   
  
 }
@@ -165,6 +166,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-color);
+  background-color: var(--background-color);
 }
 
 /* FOOTER */
@@ -200,10 +202,12 @@ body {
 }
 
 /* PORTFOLIO */
-
-/* BUTTON-FILTER */
+.section-filter {
+  background-color: var(--background-color);
+}
+/* BUTTON-FILTERS */
 .button-filter .link {
-  font-family: "Roboto", 'sans-serif';
+  font-family: 'Roboto', sans-serif;
   color: var(--accent-color);
   background-color: var(--shaded-color);
   font-weight: 500;
@@ -213,7 +217,7 @@ body {
   cursor: pointer;
 }
 
-.button-filter:hover 
+.button-filter:hover, 
 .button-filter:focus {
   color: var(--background-color);
   background-color: var(--brand-color)
