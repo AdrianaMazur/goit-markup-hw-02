@@ -72,17 +72,17 @@ body {
 
 /* HERO */
 
-.hero {
-  background-color: var(--text-color);
-}
 
-.hero-title {
+.hero .hero-title {
   color: var(--background-color);
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   
+}
+.hero {
+  background-color: var(--text-color);
 }
 
 .button {
@@ -234,7 +234,7 @@ background-color: var(--brand-color);
 }
 
 
-.list-title {
+.link .list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -244,7 +244,7 @@ background-color: var(--brand-color);
 
 }
 
-.list-filter {
+.link .list-filter {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
