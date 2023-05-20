@@ -6,7 +6,7 @@
   --background-color: rgb(255, 255, 255);
   --shaded-color: rgb(244, 244, 253);
 }
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color: var(--main-color);
   background-color: var(--background-color);
@@ -75,16 +75,18 @@
 .hero {
   background-color: var(--text-color);
 }
-.hero-title {
+
+.hero-content .hero-title {
+  color: var(--background-color);
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--background-color);
+  
 }
 
 .button {
-  font-family: "Roboto", "sans-serif";
+  font-family: 'Roboto', 'sans-serif';
   color: var(--background-color);
   background-color: var(--accent-color);
   font-weight: 500;
@@ -95,9 +97,10 @@
   cursor: pointer;
 }
 
-.button.link:hover.button.link:focus {
-  color: var(--background-color);
+.button:hover.button:focus {
   background-color: var(--brand-color);
+  
+ 
 }
 
 /* LIST OF FEATURES */
@@ -110,18 +113,33 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.features-descr {
+
+.features .features-descr {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
+
+/* PHOTOS OF SPECIFIC OF WORK */
+.specific-title {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+
 /* LIST OF EMPLOYEES */
 .section {
   background-color: var(--shaded-color);
 }
 .section-title {
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   color: var(--text-color);
   background-color: var(--background-color);
   font-weight: 700;
