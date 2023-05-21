@@ -151,7 +151,7 @@ background-color: var(--brand-color);
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.img.employees-list {
+.img .employees-list {
   background-color: var(--background-color);
 }
 .employees-title {
@@ -162,7 +162,7 @@ background-color: var(--brand-color);
   color: var(--text-color);
 }
 
-.img.employees-description {
+.img .employees-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing:0.02em;
