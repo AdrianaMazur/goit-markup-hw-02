@@ -151,7 +151,7 @@ background-color: var(--brand-color);
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.img .employees-list {
+.employees-list .img {
   background-color: #FFFFFF;
 }
 .employees-title {
@@ -160,7 +160,7 @@ background-color: var(--brand-color);
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  background-color: #fff;
+
 }
 
 .img .employees-description {
