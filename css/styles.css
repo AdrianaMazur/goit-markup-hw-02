@@ -73,7 +73,7 @@ body {
 /* HERO */
 
 
-.hero .hero-title {
+.hero-title {
   color: var(--background-color);
   font-size: 56px;
   line-height: 1.07;
@@ -150,7 +150,7 @@ background-color: var(--brand-color);
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.employees-list {
+.employees-list.list {
   background-color: var(--background-color);
 }
 .employees-title {
