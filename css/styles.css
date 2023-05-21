@@ -152,7 +152,7 @@ background-color: var(--brand-color);
   text-transform: capitalize;
 }
 .img .employees-list {
-  background-color: var(--background-color);
+  background-color: #FFFFFF;
 }
 .employees-title {
   font-weight: 500;
@@ -167,7 +167,7 @@ background-color: var(--brand-color);
   line-height: 1.5;
   letter-spacing:0.02em;
   color: var(--main-color);
-  background-color: var(--background-color);
+  background-color: #FFFFFF;
 }
 
 /* FOOTER */
