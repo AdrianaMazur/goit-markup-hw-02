@@ -210,8 +210,8 @@ background-color: var(--brand-color);
   cursor: pointer;
 }
 
-.button-filter .link:hover, 
-.button-filter .link:focus {
+.button-filter:hover, 
+.button-filter:focus {
   color: var(--background-color);
   background-color: var(--brand-color)
 }
